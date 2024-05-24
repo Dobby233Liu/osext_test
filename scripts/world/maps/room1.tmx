@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" backgroundcolor="#000000" nextlayerid="6" nextobjectid="38">
+ <editorsettings>
+  <export target="room1.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../tilesets/castle.tsx"/>
+ <layer id="1" name="tiles" width="16" height="12">
+  <data encoding="csv">
+10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12,
+10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12,
+13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+4,0,0,0,0,0,0,0,5,5,5,5,0,0,0,6,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,
+7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="3" name="collision" opacity="0.5">
+  <object id="1" x="0" y="80" width="640" height="40"/>
+  <object id="8" x="0" y="480" width="640" height="40"/>
+  <object id="16" x="-40" y="120" width="40" height="360"/>
+  <object id="37" x="640" y="120" width="40" height="360"/>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="5" name="markers">
+  <object id="20" name="spawn" x="320" y="320">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
